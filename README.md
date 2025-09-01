@@ -32,6 +32,29 @@ Uma aplicação completa de agenda de contatos com frontend em Vue.js e backend 
 
 ## 🐳 Executando com Docker
 
+### Executando via docker-compose.yaml
+
+1. Após clonar o repositório, vá para a pasta raiz:
+```bash
+cd BLUE-AgendaDeContatoss/
+```
+
+2. Na raiz, adicione o arquivo .env, onde possui as variáveis de ambiente:
+```bash
+Solicitar arquivo .env ao desenvolvedor
+```
+
+3. Execute o comando abaixo:
+```bash
+docker-compose up --build
+```
+Ou se quiser rodar os containeres em segundo plano:
+```bash
+docker-compose up -d
+```
+
+## 🐳 Executando os containeres individualmente:
+
 ### Backend (.NET API)
 
 1. Navegue para o diretório do backend:
@@ -125,4 +148,4 @@ Desenvolvido para **Blue Technology**
 ---
 
 ## 👨‍💻 Desenvolvedor
-Joao Victor Carvalho - joaovictorcordeiro00@gmail.com
+João Victor Carvalho - joaovictorcordeiro00@gmail.com
