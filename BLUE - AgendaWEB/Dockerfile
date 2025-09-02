@@ -13,7 +13,7 @@ RUN npm ci
 COPY . .
 
 ARG VITE_API_BASE_URL=http://localhost:8080/api
-ENV VITE_API_BASE_URL=$VITE_API_BASE_URL
+ENV VITE_API_BASE_URL=${VITE_API_BASE_URL}
 ENV NODE_ENV=production
 
 RUN npm run build --verbose
